@@ -1,0 +1,73 @@
+
+Gurobi 11.0.1 (linux64) logging started Mon Mar 25 23:07:41 2024
+
+Set parameter LogFile to value "log.txt"
+Set parameter Presolve to value 2
+Set parameter Method to value 0
+Set parameter Cuts to value 2
+Set parameter MIPFocus to value 1
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Ubuntu 22.10")
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+
+Gurobi 11.0.1 (linux64) logging started Mon Mar 25 23:08:34 2024
+
+Set parameter LogFile to value "log.txt"
+Set parameter Presolve to value 2
+Set parameter Method to value 0
+Set parameter Cuts to value 2
+Set parameter MIPFocus to value 1
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Ubuntu 22.10")
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 187 rows, 90 columns and 521 nonzeros
+Model fingerprint: 0xd0b1db64
+Variable types: 36 continuous, 54 integer (54 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [5e+00, 8e+02]
+  Bounds range     [1e+00, 1e+05]
+  RHS range        [1e+00, 3e+02]
+Presolve removed 74 rows and 29 columns
+Presolve time: 0.00s
+Presolved: 113 rows, 61 columns, 362 nonzeros
+Variable types: 32 continuous, 29 integer (29 binary)
+Found heuristic solution: objective 15100.000000
+Found heuristic solution: objective 10400.000000
+Root relaxation presolved: 113 rows, 61 columns, 362 nonzeros
+
+
+Root relaxation: objective 8.828571e+03, 46 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 8828.57143    0    5 10400.0000 8828.57143  15.1%     -    0s
+     0     0 8829.09091    0    7 10400.0000 8829.09091  15.1%     -    0s
+H    0     0                    9100.0000000 8829.09091  2.98%     -    0s
+     0     0 8829.09091    0    7 9100.00000 8829.09091  2.98%     -    0s
+
+Explored 1 nodes (48 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 9100 10400 15100 
+
+Optimal solution found (tolerance 1.00e-05)
+Best objective 9.100000000000e+03, best bound 9.100000000000e+03, gap 0.0000%
+
+Gurobi 11.0.1 (linux64) logging started Mon Mar 25 23:12:41 2024
+
+Set parameter LogFile to value "log.txt"
+Set parameter Presolve to value 2
+Set parameter Method to value 0
+Set parameter Cuts to value 2
+Set parameter MIPFocus to value 1
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Ubuntu 22.10")
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
